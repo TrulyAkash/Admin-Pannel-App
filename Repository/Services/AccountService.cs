@@ -89,7 +89,7 @@ namespace AdminPannelApp.Repository.Services
             smtp.Host = "smtp.gmail.com";
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new System.Net.NetworkCredential("akashsengar55@gmail.com", "itsGMAIL007@"); // Enter seders User name and password  
+            smtp.Credentials = new System.Net.NetworkCredential("akashsengar55@gmail.com", "password"); // Enter seders User name and password  
             smtp.EnableSsl = true;
             smtp.Send(mail);
         }
